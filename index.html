@@ -295,56 +295,61 @@
 		<!-- /faq -->
 		<section id="contact">
 			<div class="contact">
-
-				<div class="container">					
-					<div class="row">						
+				<div class="container">
+					<div class="row">
 						<div class="col-sm-12 col-lg-12">
-						<div class="title text-center">
-						<h2>Fillup This Form to Order</h2>
-						<p>Please type your information here if you want to order any product.</p>
-					</div>
-							<div class="contact-from">								
+							<div class="title text-center">
+								<h2>Fill Up This Form to Order</h2>
+								<p>Please type your information here if you want to order any product.</p>
+							</div>
+							<div class="contact-from">
 								<!-- form -->
-								<form name="ajax-form" id="contact-form2" action="https://formsubmit.io/send/90aa5128-c301-47bf-ae81-794fa4c07dda" method="post">
-									<input name="_redirect" id="name1" value="http://zcube.in/zfolio" type="hidden">									
+								<form name="ajax-form" id="contact-form2" 
+									  action="https://formsubmit.co/amplifybd6@gmail.com" method="post">
+									<!-- Redirect URL after submission -->
+									<input type="hidden" name="_next" value="http://zcube.in/zfolio">
+									<!-- Prevent spam submissions -->
+									<input type="hidden" name="_captcha" value="false">
 									<div class="row">
-									<div class="col-xs-12 col-lg-4">
-									<div class="form-group">
-										<input class="form-control" id="name" name="name" placeholder="Your name" value="" required="" type="text"> </div>
-									</div>
-									<!-- /Form-name -->
-									<div class="col-xs-12 col-lg-4">
-									<div class="form-group">
-										<input class="form-control" id="phone" name="phone" placeholder="Your Phone Number" value="" required="" type="email"> </div>
-									</div>
-									<!-- /Form-email -->
-									<div class="col-xs-12 col-lg-4">
-									<div class="form-group">
-										<input class="form-control" id="location" name="location" placeholder="Your Address" value="" required="" type="text"> </div>
-									</div>		
-										<!-- /Form-subject -->
-									<div class="col-xs-12">	
-									<div class="form-group">
-										<textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required=""></textarea>
-									</div>
-									</div>
-									<!-- /Form Msg -->									
+										<!-- Name Field -->
+										<div class="col-xs-12 col-lg-4">
+											<div class="form-group">
+												<input class="form-control" id="name" name="name" placeholder="Your Name" required type="text">
+											</div>
+										</div>
+										<!-- Phone Number Field -->
+										<div class="col-xs-12 col-lg-4">
+											<div class="form-group">
+												<input class="form-control" id="phone" name="phone" placeholder="Your Phone Number" required type="text">
+											</div>
+										</div>
+										<!-- Address Field -->
+										<div class="col-xs-12 col-lg-4">
+											<div class="form-group">
+												<input class="form-control" id="location" name="location" placeholder="Your Address" required type="text">
+											</div>
+										</div>
+										<!-- Message Field -->
+										<div class="col-xs-12">
+											<div class="form-group">
+												<textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required></textarea>
+											</div>
+										</div>
+										<!-- Submit Button -->
 										<div class="col-xs-12">
 											<div class="text-center">
 												<button type="submit" class="btn btn-custom" id="send">Submit</button>
 											</div>
 										</div>
-										<!-- /col -->
 									</div>
-									<!-- /row -->
 								</form>
 								<!-- /form -->
 							</div>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>		
 		<!-- /faq -->
 		<footer>
 			<div class="footer">
