@@ -55,7 +55,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 30px;
   font-size: 14px;
-  color: #707070; }
+  color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
@@ -133,7 +133,7 @@ hr {
     .home2 .services .title p {
       padding: 0; }
   .home2 .services .services-text h4 {
-    color: #999; }
+    color: #ffffff; }
   .home2 .services .services-text i {
     background: none;
     height: inherit;
@@ -285,7 +285,7 @@ hr {
       color: #fff;
       letter-spacing: 2.5px; }
     .main-header .main-header-text h3 {
-      color: #b3b3b3;
+      color: #ffffff;
       font-size: 28px;
       font-weight: 400;
       letter-spacing: 2.5px;
@@ -1342,7 +1342,7 @@ ol.comment-list {
     border: none;
     border-bottom: 1px solid #000;
     border-radius: 0;
-    color: #ececec;
+    color: #ffffff;
     margin-bottom: 30px;
     padding: 20px 0 !important;
     -webkit-box-shadow: none;
